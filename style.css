@@ -1,0 +1,84 @@
+  body {
+    background: lightgray;
+  }
+  button {
+    float: right;
+    margin: 0px;
+    background: none;
+    border: none;
+    outline: none;
+  }
+  p {
+    color: black;
+  }
+  h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    border: double 20px gray;
+  }
+  img {
+    float: right;
+    margin: 10px;
+  }
+  h6 {
+    color: gray;
+  }
+  a {
+    color: black;
+    font-size: 49px;
+    border: solid;
+    background: gray;
+    text-decoration: none;
+  }
+  .nowrap {
+    white-space: nowrap;
+  }
+  .marg {
+    margin: 0px 37px 0px 0px;
+  }
+  p {
+    font-size: 20px;
+    padding: 0px;
+    float: left;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  h4 {
+    color: lightgray;
+  }
+  h5 {
+    font-size: 18px;
+  }
+  .creditLink {
+    border: hidden;
+    background: lightgray;
+    font-size: 18px;
+  }
+  .animeTitle {
+    font-size: 70px;
+    margin: 10px;
+    text-align: center;
+    border: 10px solid black;
+    background: darkgray;
+  }
+  .listSections {
+    font-size: 20px;
+      border: 2px solid black;
+  }
